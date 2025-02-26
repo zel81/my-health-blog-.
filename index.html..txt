@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мојот Здравствен Блог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+            color: #4CAF50;
+        }
+
+        article {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .content-title {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .content-text {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добредојдовте на мојот здравствен блог</h1>
+</header>
+
+<nav>
+    <a href="#health">Здравје</a>
+    <a href="#wellbeing">Благосостојба</a>
+    <a href="#nutrition">Исхрана</a>
+</nav>
+
+<article id="health">
+    <div class="content-title">Здравје и благосостојба</div>
+    <div class="content-text">
+        <p>Текст за здравје...</p>
+        <p>Здравиот начин на живот не е само физички, туку и психички и емоционален. Поддржете го вашето тело и ум преку правилна исхрана, вежбање и позитивен став.</p>
+        <p>Важноста на редовна физичка активност и добар сон не може да се пренагласи. Практикувањето на овие здрави навики ќе ве направи поенергични и ќе го подобри вашето општо здравје.</p>
+    </div>
+</article>
+
+<article id="wellbeing">
+    <div class="content-title">Благосостојба</div>
+    <div class="content-text">
+        <p>Благосостојбата е многу повеќе од физичко здравје. Таа вклучува и емоционална и ментална стабилност. Ние сите треба да се грижи за своето благосостојба, да ги препознаеме и решаваме стресот и анксиозноста.</p>
+    </div>
+</article>
+
+<article id="nutrition">
+    <div class="content-title">Исхрана</div>
+    <div class="content-text">
+        <p>Добрата исхрана е основа за одржување на здравје и енергичност. Внесувајте многу зеленчук, овошје, и цели зрна. Избегнувајте преработена храна и додадени шеќери.</p>
+    </div>
+</article>
+
+<footer>
+    <p>Мојот Здравствен Блог - Сите права се задржани &copy; 2025</p>
+</footer>
+
+</body>
+</html>
